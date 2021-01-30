@@ -1,0 +1,715 @@
+发送方发送报文,seqnum = 0
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+
+收到冗余的ack: 0
+超时，重新发送窗口报文,此时窗口： base=1，nextseqnum=5，windowsize=4
+
+收到冗余的ack: 0
+
+收到冗余的ack: 0
+
+收到冗余的ack: 0
+
+收到3个冗余ack，开始快速重传，重传报文序号为：1
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+
+收到冗余的ack: 1
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=3，nextseqnum=5，windowsize=2
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+
+收到冗余的ack: 0
+超时，重新发送窗口报文,此时窗口： base=1，nextseqnum=5，windowsize=4
+
+收到冗余的ack: 0
+超时，重新发送窗口报文,此时窗口： base=1，nextseqnum=5，windowsize=4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+
+收到冗余的ack: 1
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=3，nextseqnum=5，windowsize=2
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+超时，重新发送窗口报文,此时窗口： base=5，nextseqnum=1，windowsize=4
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+
+收到冗余的ack: 0
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+
+收到冗余的ack: 1
+
+收到冗余的ack: 1
+
+收到冗余的ack: 1
+
+收到3个冗余ack，开始快速重传，重传报文序号为：2
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=3，nextseqnum=5，windowsize=2
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+
+收到冗余的ack: 3
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+
+收到冗余的ack: 5
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=7，nextseqnum=1，windowsize=2
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+
+收到冗余的ack: 5
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+
+收到冗余的ack: 6
+超时，重新发送窗口报文,此时窗口： base=7，nextseqnum=1，windowsize=2
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+
+收到冗余的ack: 4
+超时，重新发送窗口报文,此时窗口： base=5，nextseqnum=1，windowsize=4
+
+收到冗余的ack: 4
+
+收到冗余的ack: 4
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=7，nextseqnum=1，windowsize=2
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+
+收到冗余的ack: 2
+超时，重新发送窗口报文,此时窗口： base=3，nextseqnum=5，windowsize=2
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+
+收到冗余的ack: 5
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+
+收到冗余的ack: 5
+
+收到冗余的ack: 5
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=7，nextseqnum=1，windowsize=2
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+
+收到冗余的ack: 1
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+
+收到冗余的ack: 1
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+
+收到冗余的ack: 2
+超时，重新发送窗口报文,此时窗口： base=3，nextseqnum=5，windowsize=2
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+
+收到冗余的ack: 1
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=3，nextseqnum=5，windowsize=2
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+
+收到冗余的ack: 5
+
+收到冗余的ack: 5
+超时，重新发送窗口报文,此时窗口： base=6，nextseqnum=1，windowsize=3
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=7，nextseqnum=1，windowsize=2
+
+收到冗余的ack: 6
+超时，重新发送窗口报文,此时窗口： base=7，nextseqnum=1，windowsize=2
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+超时，重新发送窗口报文,此时窗口： base=2，nextseqnum=5，windowsize=3
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+
+收到冗余的ack: 4
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+
+收到冗余的ack: 6
+超时，重新发送窗口报文,此时窗口： base=7，nextseqnum=1，windowsize=2
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=4，nextseqnum=5，windowsize=1
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=2，nextseqnum=5，windowsize=3
+
+滑动窗口前，base=2，nextseqnum=5，windowsize=3
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=4，nextseqnum=5，windowsize=1
+
+滑动窗口前，base=4，nextseqnum=5，windowsize=1
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+
+收到冗余的ack: 7
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
+发送方发送报文,seqnum = 1
+发送方发送报文,seqnum = 2
+发送方发送报文,seqnum = 3
+发送方发送报文,seqnum = 4
+滑动窗口前，base=1，nextseqnum=5，windowsize=4
+
+
+滑动窗口后，base=3，nextseqnum=5，windowsize=2
+
+滑动窗口前，base=3，nextseqnum=5，windowsize=2
+
+
+滑动窗口后，base=5，nextseqnum=5，windowsize=0
+
+发送方发送报文,seqnum = 5
+发送方发送报文,seqnum = 6
+发送方发送报文,seqnum = 7
+发送方发送报文,seqnum = 0
+滑动窗口前，base=5，nextseqnum=1，windowsize=4
+
+
+滑动窗口后，base=6，nextseqnum=1，windowsize=3
+
+滑动窗口前，base=6，nextseqnum=1，windowsize=3
+
+
+滑动窗口后，base=7，nextseqnum=1，windowsize=2
+
+超时，重新发送窗口报文,此时窗口： base=7，nextseqnum=1，windowsize=2
+滑动窗口前，base=7，nextseqnum=1，windowsize=2
+
+
+滑动窗口后，base=0，nextseqnum=1，windowsize=1
+
+超时，重新发送窗口报文,此时窗口： base=0，nextseqnum=1，windowsize=1
+滑动窗口前，base=0，nextseqnum=1，windowsize=1
+
+
+滑动窗口后，base=1，nextseqnum=1，windowsize=0
+
